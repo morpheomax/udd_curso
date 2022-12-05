@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clase HTML - CSS UDD</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" target=""> Inicio </a>
+          </li>
+          <li>
+            <a href="#nosotros" target=""> Nosotros </a>
+          </li>
+          <li>
+            <a href="#contacto" target=""> Contacto </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="slider" id="home">
+        <img class="imgslider" src="3-5000x3333.jpeg" alt="" srcset="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="cards_group">
+        <!--Card 1-->
+        <div class="card">
+          <img class="card-img" src="card_1.jpeg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Sección 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn_card">Ver más</a>
+          </div>
+        </div>
+        <!--Card 2-->
+        <div class="card">
+          <img class="card-img" src="card_2.jpeg" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Sección 2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn_card">Ver más</a>
+          </div>
+        </div>
+        <!--Card 3-->
+        <div class="card">
+          <img class="card-img" src="card_3.jpeg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Sección 3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn_card">Ver más</a>
+          </div>
+        </div>
+        <!--Card 4-->
+        <div class="card">
+          <img class="card-img" src="card_4.jpeg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Sección 3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn_card">Ver más</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside id="nosotros">
+      <div class="card">
+        <img class="banner" src="aside.jpeg" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Aside</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn_card">Ver más</a>
+        </div>
+      </div>
+    </aside>
+    <div id="contacto">
+      <div class="contact">
+        <h1>Contacto</h1>
+        <form action="#" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="nombre" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="email" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="mensaje"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Envíe su mensaje</button>
+            </li>
+          </ul>
+        </form>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">Curso rápido UDD 2022</div>
+    </footer>
+  </body>
+</html>
